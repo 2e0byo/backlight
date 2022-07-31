@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backlight"
+version = "0.1.0"
+description = "Very basic script to control backlight."
+authors = ["John Maximilian <2e0byo@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+backlight = "backlight:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
